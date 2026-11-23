@@ -1,0 +1,12 @@
+# licensed data: never commit
+data/raw/
+data/processed/
+*.xlsx
+*.xls
+*.csv
+
+# python / jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
