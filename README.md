@@ -11,7 +11,7 @@ This project analyses **talent movement for 41 consulting suppliers in Sweden** 
 - Across the 41 suppliers, **2,154 people were hired and 1,649 left** (net +505). **26 of 41** suppliers gained more people than they lost.
 - **The automotive industry is the only group the suppliers lose talent to on balance** (511 departures vs 448 hires). Automotive companies receive about 31% of all departures.
 - A per-supplier **t-test (α = 0.025)** shows a real imbalance for **16 of 41 suppliers**: 11 gain talent and 5 lose talent.
-- A paired **Wilcoxon signed-rank test**, added as a robustness check, agrees with the t-test for 33 of 41 suppliers and is the better default for this paired, skewed count data.
+- A paired **Wilcoxon signed-rank test**, added as a robustness check, also finds 16 significant suppliers and agrees with the t-test for 33 of 41. Where they differ, the t-test looks at the *total* flow, while the paired test shows whether a supplier gains talent from *most* of its counterparties.
 
 ![Talent flow to and from other consulting companies and automotive companies](images/flows_consulting_automotive.png)
 
